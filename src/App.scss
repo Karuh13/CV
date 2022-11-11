@@ -1,0 +1,51 @@
+.App {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 70px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  font-size: 20px;
+  align-items: center;
+  
+  
+  & span{
+    padding: 10px;
+    
+    
+    &:hover {
+      cursor: pointer;
+      background-color: rgb(31, 31, 31);
+      border-radius: 8px;
+    }
+  }
+  
+}
+
+
+
+.section {
+  height: 900px;
+  width: 700px;
+  background-color: rgb(227, 227, 227);
+  border: 2px rgb(0, 0, 0) solid;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero {
+  flex-flow: row;
+  
+}
